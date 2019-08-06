@@ -25,7 +25,7 @@ CREATE TABLE `hy_area` (
   `shortname` varchar(100) DEFAULT NULL COMMENT '简称',
   `name` varchar(100) DEFAULT NULL COMMENT '名称',
   `merger_name` varchar(255) DEFAULT NULL COMMENT '全称',
-  `level` tinyint(4) DEFAULT NULL COMMENT '层级 0 1 2 省市区县',
+  `level` tinyint(4) DEFAULT NULL COMMENT '层级 1 2 3 省市区县',
   `pinyin` varchar(100) DEFAULT NULL COMMENT '拼音',
   `code` varchar(100) DEFAULT NULL COMMENT '长途区号',
   `zip_code` varchar(100) DEFAULT NULL COMMENT '邮编',
