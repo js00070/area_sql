@@ -33,7 +33,7 @@ CREATE TABLE `hy_area` (
   `lng` varchar(100) DEFAULT NULL COMMENT '经度',
   `lat` varchar(100) DEFAULT NULL COMMENT '纬度',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3750 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3750 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of hy_area
